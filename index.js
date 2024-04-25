@@ -3,8 +3,9 @@ var lines = input.split('\n');
 
 // let a = Number(lines.shift());
 // let b = lines.shift();
-let a = Number(lines.shift());
 
-for (let i = 2; i <= a; i = i + 2) {
-    console.log(`${i}^2 = ${Math.pow(i,2)}`);
+let aux = Number(lines.shift());
+
+for (let i = 0; i < aux; i++) {
+    console.log(i);
 }
